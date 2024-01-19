@@ -1,0 +1,3 @@
+Clases Abstractas
+
+Las clases abstractas hace que las clases hijas tengan que poner OBLIGATORIAMENTE los metodos que tiene el padre.
