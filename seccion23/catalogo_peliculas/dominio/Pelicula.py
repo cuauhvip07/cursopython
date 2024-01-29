@@ -4,12 +4,13 @@ class Pelicula:
     def __init__(self,nombre):
         self._nombre = nombre;
         
-    @property 
+    @property
     def nombre(self):
         return self._nombre;
-    @nombre.setter
+    
+    @nombre.setter 
     def nombre(self,nombre):
-        self._nombre = nombre
+        self._nombre = nombre;
         
     def __str__(self):
-        return f'Pelicula: {self.nombre}';
+        return f'Pelicula: {self.nombre}'
