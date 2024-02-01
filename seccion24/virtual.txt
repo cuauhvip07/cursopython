@@ -1,0 +1,6 @@
+virtualenv venv      #ven es el nombre
+source venv/bin/activate     #Activar el entorno virtual
+# Instalar el paquete que quieras
+deactivate # Desactivar el entorno 
+
+Si ya lo activaste una vez, para activar otra vez ocupa el comando de la linea 2
