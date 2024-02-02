@@ -165,3 +165,129 @@ connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection re
         Id Persona: 20, Nombre: Juan,
         Apellido: Asmo, Email: jasmo@mail.com
         
+02:39:07 PM: DEBUG [Conexion.py:25] Base de datos conectada
+02:39:07 PM: DEBUG [Conexion.py:38] Cursor conectado con exito <cursor object at 0x1040d97b0; closed: 0>
+02:51:45 PM: DEBUG [Conexion.py:25] Base de datos conectada
+02:51:45 PM: DEBUG [PersonaDAO.py:27] 
+        Id: 1, Nombre: Juan Carlos,
+        Apellido: Juarez, Email: jcjuarez@mail.com
+        
+02:51:45 PM: DEBUG [PersonaDAO.py:27] 
+        Id: 2, Nombre: Karla,
+        Apellido: Sanchez, Email: ksanchez@mail.com
+        
+02:51:45 PM: DEBUG [PersonaDAO.py:27] 
+        Id: 15, Nombre: Angel,
+        Apellido: Quintana, Email: aquintana@mail.com
+        
+02:51:45 PM: DEBUG [PersonaDAO.py:27] 
+        Id: 16, Nombre: Marcos,
+        Apellido: Cantu, Email: ccantu@mail.com
+        
+02:51:45 PM: DEBUG [PersonaDAO.py:27] 
+        Id: 17, Nombre: Maria,
+        Apellido: Gonzales, Email: mgonzales@mail.com
+        
+02:51:45 PM: DEBUG [PersonaDAO.py:27] 
+        Id: 20, Nombre: Juan,
+        Apellido: Asmo, Email: jasmo@mail.com
+        
+03:03:20 PM: DEBUG [Conexion.py:25] Base de datos conectada
+03:03:20 PM: DEBUG [PersonaDAO.py:30] Persona insertada con exito: 
+        Id: None, Nombre: Gaboriel,
+        Apellido: Pedraza, Email: gpedraza@mail,com
+        
+03:03:20 PM: DEBUG [PersonaDAO.py:39] Personas insertadas:1
+03:03:20 PM: DEBUG [PersonaDAO.py:44] 
+        Id: 1, Nombre: Juan Carlos,
+        Apellido: Juarez, Email: jcjuarez@mail.com
+        
+03:03:20 PM: DEBUG [PersonaDAO.py:44] 
+        Id: 2, Nombre: Karla,
+        Apellido: Sanchez, Email: ksanchez@mail.com
+        
+03:03:20 PM: DEBUG [PersonaDAO.py:44] 
+        Id: 15, Nombre: Angel,
+        Apellido: Quintana, Email: aquintana@mail.com
+        
+03:03:20 PM: DEBUG [PersonaDAO.py:44] 
+        Id: 16, Nombre: Marcos,
+        Apellido: Cantu, Email: ccantu@mail.com
+        
+03:03:20 PM: DEBUG [PersonaDAO.py:44] 
+        Id: 17, Nombre: Maria,
+        Apellido: Gonzales, Email: mgonzales@mail.com
+        
+03:03:20 PM: DEBUG [PersonaDAO.py:44] 
+        Id: 20, Nombre: Juan,
+        Apellido: Asmo, Email: jasmo@mail.com
+        
+03:03:20 PM: DEBUG [PersonaDAO.py:44] 
+        Id: 22, Nombre: Gaboriel,
+        Apellido: Pedraza, Email: gpedraza@mail,com
+        
+03:09:00 PM: DEBUG [Conexion.py:25] Base de datos conectada
+03:09:28 PM: DEBUG [Conexion.py:25] Base de datos conectada
+03:09:28 PM: DEBUG [PersonaDAO.py:39] Actualizacion exitosa 
+        Id: 20, Nombre: Karime,
+        Apellido: Mendez, Email: kmendez@mail.com
+        
+03:09:28 PM: DEBUG [PersonaDAO.py:47] Personas actualizadas 1
+03:09:28 PM: DEBUG [PersonaDAO.py:57] 
+        Id: 1, Nombre: Juan Carlos,
+        Apellido: Juarez, Email: jcjuarez@mail.com
+        
+03:09:28 PM: DEBUG [PersonaDAO.py:57] 
+        Id: 2, Nombre: Karla,
+        Apellido: Sanchez, Email: ksanchez@mail.com
+        
+03:09:28 PM: DEBUG [PersonaDAO.py:57] 
+        Id: 15, Nombre: Angel,
+        Apellido: Quintana, Email: aquintana@mail.com
+        
+03:09:28 PM: DEBUG [PersonaDAO.py:57] 
+        Id: 16, Nombre: Marcos,
+        Apellido: Cantu, Email: ccantu@mail.com
+        
+03:09:28 PM: DEBUG [PersonaDAO.py:57] 
+        Id: 17, Nombre: Maria,
+        Apellido: Gonzales, Email: mgonzales@mail.com
+        
+03:09:28 PM: DEBUG [PersonaDAO.py:57] 
+        Id: 20, Nombre: Karime,
+        Apellido: Mendez, Email: kmendez@mail.com
+        
+03:09:28 PM: DEBUG [PersonaDAO.py:57] 
+        Id: 22, Nombre: Gaboriel,
+        Apellido: Pedraza, Email: gpedraza@mail,com
+        
+03:13:45 PM: DEBUG [Conexion.py:25] Base de datos conectada
+03:13:45 PM: DEBUG [PersonaDAO.py:48] Eliminado con exito 
+        Id: 22, Nombre: None,
+        Apellido: None, Email: None
+        
+03:13:45 PM: DEBUG [PersonaDAO.py:56] Eliminados: 1
+03:13:45 PM: DEBUG [PersonaDAO.py:71] 
+        Id: 1, Nombre: Juan Carlos,
+        Apellido: Juarez, Email: jcjuarez@mail.com
+        
+03:13:45 PM: DEBUG [PersonaDAO.py:71] 
+        Id: 2, Nombre: Karla,
+        Apellido: Sanchez, Email: ksanchez@mail.com
+        
+03:13:45 PM: DEBUG [PersonaDAO.py:71] 
+        Id: 15, Nombre: Angel,
+        Apellido: Quintana, Email: aquintana@mail.com
+        
+03:13:45 PM: DEBUG [PersonaDAO.py:71] 
+        Id: 16, Nombre: Marcos,
+        Apellido: Cantu, Email: ccantu@mail.com
+        
+03:13:45 PM: DEBUG [PersonaDAO.py:71] 
+        Id: 17, Nombre: Maria,
+        Apellido: Gonzales, Email: mgonzales@mail.com
+        
+03:13:45 PM: DEBUG [PersonaDAO.py:71] 
+        Id: 20, Nombre: Karime,
+        Apellido: Mendez, Email: kmendez@mail.com
+        
