@@ -1,0 +1,11 @@
+El loggin tiene diferentes niveles
+
+DEBUB -> Detalla informacion, tipicamente de interes solo cuando se diagnostica problemas -- Etapa solamente de desarrollo 
+
+INFO -> Confirmacion que se esta trabajando como se esperaba
+
+WARNING -> Informacion de que algo inesperado paso o indica algunos probleas que tendra en un futuro cercano (Ejemplo: Poco espacio en el disco). El software todavia trabaja como se espera -- Este loggin es el baso si no se pone nada
+
+ERROR -> Problemas mas serios, el software no es capaz de ejecutar algina funcion 
+
+CRITICAL -> Un error serio, indica que el programa por si mismo no es capaz de seguir corriendo
