@@ -11,13 +11,12 @@ conexion = psycopg2.connect(
 try:
     with conexion:
         with conexion.cursor() as cursor:
-            sentencia = 'SELECT * FROM persona WHERE id_persona IN %s'
-            valores = input('Ingrese los id\'s (separelos por comas): ')
+            sentencia = 'DELETE FROM persona WHERE id_persona IN %s'
+            valores = input('Ingrese los id\'s a eliminar (separelos con comas): ')
             llaves_primarias = (tuple(valores.split(',')),)
             cursor.execute(sentencia,llaves_primarias)
-            datos = cursor.fetchall()
-            for dato in datos:
-                print(dato)
+            registros_eliminados = cursor.rowcount
+            print(f'Numero de elementos eliminados: {registros_eliminados}')
 except Exception as e:
     print(e)
 finally:
