@@ -1,0 +1,111 @@
+03:07:35 PM: ERROR [Conexion.py:31] Ocurrio un error al obtener el pool connection to server at "localhost" (::1), port 5432 failed: FATAL:  database "usuario" does not exist
+
+03:09:54 PM: DEBUG [Conexion.py:28] Creacion del pool exitosa <psycopg2.pool.SimpleConnectionPool object at 0x1032a35e0>
+03:09:54 PM: DEBUG [Conexion.py:39] Conexion obtenida del pool <connection object at 0x102822110; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+03:09:54 PM: DEBUG [Conexion.py:45] Regresamos la conexion al pool: <connection object at 0x102822110; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+03:09:54 PM: DEBUG [Conexion.py:39] Conexion obtenida del pool <connection object at 0x102822110; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+03:09:54 PM: DEBUG [Conexion.py:39] Conexion obtenida del pool <connection object at 0x102821e70; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+03:14:36 PM: DEBUG [Conexion.py:28] Creacion del pool exitosa <psycopg2.pool.SimpleConnectionPool object at 0x102cd35e0>
+03:14:36 PM: DEBUG [Conexion.py:39] Conexion obtenida del pool <connection object at 0x102252110; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+03:14:36 PM: DEBUG [Conexion.py:45] Regresamos la conexion al pool: <connection object at 0x102252110; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+03:14:36 PM: DEBUG [Conexion.py:39] Conexion obtenida del pool <connection object at 0x102252110; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+03:14:36 PM: DEBUG [Conexion.py:39] Conexion obtenida del pool <connection object at 0x102251e70; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+03:18:16 PM: DEBUG [Conexion.py:28] Conexion establecida con el pool extiosamente <psycopg2.pool.SimpleConnectionPool object at 0x10371f4c0>
+03:18:16 PM: DEBUG [Conexion.py:41] Conexion con el cursor <connection object at 0x102c9e110; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+03:18:16 PM: DEBUG [Conexion.py:47] Conexion liberada <connection object at 0x102c9e110; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+03:19:27 PM: DEBUG [Conexion.py:28] Conexion establecida con el pool extiosamente <psycopg2.pool.SimpleConnectionPool object at 0x10338b4c0>
+03:19:27 PM: DEBUG [Conexion.py:41] Conexion con el cursor <connection object at 0x10290a110; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+03:19:27 PM: DEBUG [Conexion.py:47] Conexion liberada <connection object at 0x10290a110; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+05:17:13 PM: DEBUG [CursorPool.py:10] Entrando al __enter__
+05:17:13 PM: DEBUG [Conexion.py:28] Conexion establecida con el pool extiosamente <psycopg2.pool.SimpleConnectionPool object at 0x1027cbeb0>
+05:17:13 PM: DEBUG [Conexion.py:41] Conexion con el cursor <connection object at 0x102652110; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+05:17:14 PM: DEBUG [CursorPool.py:16] Entrando al __exit__
+05:17:30 PM: DEBUG [CursorPool.py:10] Entrando al __enter__
+05:17:30 PM: DEBUG [Conexion.py:28] Conexion establecida con el pool extiosamente <psycopg2.pool.SimpleConnectionPool object at 0x1030cbeb0>
+05:17:30 PM: DEBUG [Conexion.py:41] Conexion con el cursor <connection object at 0x102f52110; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+05:17:30 PM: DEBUG [CursorPool.py:16] Entrando al __exit__
+05:17:46 PM: DEBUG [Conexion.py:28] Conexion establecida con el pool extiosamente <psycopg2.pool.SimpleConnectionPool object at 0x100edb4c0>
+05:17:46 PM: DEBUG [Conexion.py:41] Conexion con el cursor <connection object at 0x100882110; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+05:17:46 PM: DEBUG [Conexion.py:47] Conexion liberada <connection object at 0x100882110; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+05:18:13 PM: DEBUG [CursorPool.py:10] Entrando al __enter__
+05:18:13 PM: DEBUG [Conexion.py:28] Conexion establecida con el pool extiosamente <psycopg2.pool.SimpleConnectionPool object at 0x100b77eb0>
+05:18:13 PM: DEBUG [Conexion.py:41] Conexion con el cursor <connection object at 0x1009fe110; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+05:18:13 PM: DEBUG [CursorPool.py:16] Entrando al __exit__
+05:19:06 PM: DEBUG [CursorPool.py:10] Entrando al __enter__
+05:19:06 PM: DEBUG [Conexion.py:28] Conexion establecida con el pool extiosamente <psycopg2.pool.SimpleConnectionPool object at 0x102fc3eb0>
+05:19:06 PM: DEBUG [Conexion.py:41] Conexion con el cursor <connection object at 0x102e4a110; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+05:19:06 PM: DEBUG [CursorPool.py:26] [(1, 'mmendez', '123'), (2, 'jperez', '456')]
+05:19:06 PM: DEBUG [CursorPool.py:16] Entrando al __exit__
+05:23:47 PM: DEBUG [Conexion.py:28] Conexion establecida con el pool extiosamente <psycopg2.pool.SimpleConnectionPool object at 0x101ad34c0>
+05:23:47 PM: DEBUG [Conexion.py:41] Conexion con el cursor <connection object at 0x101052110; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+05:23:47 PM: DEBUG [Conexion.py:47] Conexion liberada <connection object at 0x101052110; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+05:25:02 PM: DEBUG [CursorPool.py:10] Inicio del metodo with __enter__
+05:25:03 PM: DEBUG [Conexion.py:28] Conexion establecida con el pool extiosamente <psycopg2.pool.SimpleConnectionPool object at 0x1050dbee0>
+05:25:03 PM: DEBUG [Conexion.py:41] Conexion con el cursor <connection object at 0x104f62110; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+05:25:03 PM: DEBUG [CursorPool.py:28] Dentro del bloque with
+05:25:03 PM: DEBUG [CursorPool.py:30] [(1, 'mmendez', '123'), (2, 'jperez', '456')]
+05:25:03 PM: DEBUG [CursorPool.py:16] Se ejecute metodo __exit__
+05:25:03 PM: DEBUG [CursorPool.py:22] Commit de la transaccion
+05:25:03 PM: DEBUG [Conexion.py:47] Conexion liberada <connection object at 0x104f62110; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+05:27:28 PM: DEBUG [CursorPool.py:10] Entrando al __enter__
+05:27:28 PM: DEBUG [Conexion.py:28] Conexion establecida con el pool extiosamente <psycopg2.pool.SimpleConnectionPool object at 0x10056bee0>
+05:27:28 PM: DEBUG [Conexion.py:41] Conexion con el cursor <connection object at 0x1003f2110; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+05:27:28 PM: DEBUG [CursorPool.py:29] [(1, 'mmendez', '123'), (2, 'jperez', '456')]
+05:27:28 PM: DEBUG [CursorPool.py:16] Entrando al __exit__
+05:27:28 PM: DEBUG [CursorPool.py:22] Haciedo commit
+05:27:57 PM: DEBUG [CursorPool.py:10] Entrando al __enter__
+05:27:57 PM: DEBUG [Conexion.py:28] Conexion establecida con el pool extiosamente <psycopg2.pool.SimpleConnectionPool object at 0x104fbbee0>
+05:27:57 PM: DEBUG [Conexion.py:41] Conexion con el cursor <connection object at 0x104e42110; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+05:27:57 PM: DEBUG [CursorPool.py:29] [(1, 'mmendez', '123'), (2, 'jperez', '456')]
+05:27:57 PM: DEBUG [CursorPool.py:16] Entrando al __exit__
+05:27:57 PM: DEBUG [CursorPool.py:22] Haciedo commit
+05:27:57 PM: DEBUG [Conexion.py:47] Conexion liberada <connection object at 0x104e42110; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+05:36:50 PM: DEBUG [Conexion.py:28] Conexion establecida con el pool extiosamente <psycopg2.pool.SimpleConnectionPool object at 0x10318feb0>
+05:36:50 PM: DEBUG [Conexion.py:41] Conexion con el cursor <connection object at 0x103016110; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+05:36:50 PM: DEBUG [CursorPool.py:12] Obteniendo conexion del cursor
+05:36:50 PM: ERROR [CursorPool.py:17] Ocurio una excepcion <class 'AttributeError'> 'NoneType' object has no attribute 'execute' <traceback object at 0x1031ac580>
+05:36:50 PM: DEBUG [Conexion.py:47] Conexion liberada <connection object at 0x103016110; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+05:37:43 PM: DEBUG [Conexion.py:28] Conexion establecida con el pool extiosamente <psycopg2.pool.SimpleConnectionPool object at 0x102a0feb0>
+05:37:43 PM: DEBUG [Conexion.py:41] Conexion con el cursor <connection object at 0x102896110; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+05:37:43 PM: DEBUG [CursorPool.py:12] Obteniendo conexion del cursor
+05:37:43 PM: ERROR [CursorPool.py:17] Ocurio una excepcion <class 'AttributeError'> 'NoneType' object has no attribute 'execute' <traceback object at 0x102a2c580>
+05:37:43 PM: DEBUG [Conexion.py:47] Conexion liberada <connection object at 0x102896110; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+05:38:34 PM: DEBUG [Conexion.py:28] Conexion establecida con el pool extiosamente <psycopg2.pool.SimpleConnectionPool object at 0x102eafeb0>
+05:38:34 PM: DEBUG [Conexion.py:41] Conexion con el cursor <connection object at 0x102d36110; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+05:38:34 PM: DEBUG [CursorPool.py:30] [(1, 'mmendez', '123'), (2, 'jperez', '456')]
+05:38:34 PM: DEBUG [CursorPool.py:22] Haciendo commit
+05:38:34 PM: DEBUG [Conexion.py:47] Conexion liberada <connection object at 0x102d36110; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+07:20:05 PM: DEBUG [Conexion.py:28] Conexion establecida con el pool extiosamente <psycopg2.pool.SimpleConnectionPool object at 0x104753eb0>
+07:20:05 PM: DEBUG [Conexion.py:41] Conexion con el cursor <connection object at 0x1045da110; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+07:20:05 PM: DEBUG [CursorPool.py:30] [(1, 'mmendez', '123'), (2, 'jperez', '456')]
+07:20:05 PM: DEBUG [CursorPool.py:22] Haciendo commit
+07:20:05 PM: DEBUG [Conexion.py:47] Conexion liberada <connection object at 0x1045da110; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+07:20:13 PM: DEBUG [Conexion.py:28] Conexion establecida con el pool extiosamente <psycopg2.pool.SimpleConnectionPool object at 0x104bcbeb0>
+07:20:13 PM: DEBUG [Conexion.py:41] Conexion con el cursor <connection object at 0x104a52110; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+07:20:13 PM: DEBUG [CursorPool.py:30] [(1, 'mmendez', '123'), (2, 'jperez', '456')]
+07:20:13 PM: DEBUG [CursorPool.py:22] Haciendo commit
+07:20:13 PM: DEBUG [Conexion.py:47] Conexion liberada <connection object at 0x104a52110; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+07:26:11 PM: DEBUG [Conexion.py:28] Conexion establecida con el pool extiosamente <psycopg2.pool.SimpleConnectionPool object at 0x104dd2830>
+07:26:11 PM: DEBUG [Conexion.py:41] Conexion con el cursor <connection object at 0x104c5a110; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+07:26:11 PM: DEBUG [UsuarioDao.py:14] [(1, 'mmendez', '123'), (2, 'jperez', '456')]
+07:26:11 PM: DEBUG [CursorPool.py:22] Haciendo commit
+07:26:11 PM: DEBUG [Conexion.py:47] Conexion liberada <connection object at 0x104c5a110; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+07:33:49 PM: DEBUG [Conexion.py:28] Conexion establecida con el pool extiosamente <psycopg2.pool.SimpleConnectionPool object at 0x101ac2a40>
+07:33:49 PM: DEBUG [Conexion.py:41] Conexion con el cursor <connection object at 0x100fee110; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+07:33:49 PM: DEBUG [CursorPool.py:22] Haciendo commit
+07:33:49 PM: DEBUG [Conexion.py:47] Conexion liberada <connection object at 0x100fee110; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+07:34:00 PM: DEBUG [Conexion.py:28] Conexion establecida con el pool extiosamente <psycopg2.pool.SimpleConnectionPool object at 0x1053de980>
+07:34:00 PM: DEBUG [Conexion.py:41] Conexion con el cursor <connection object at 0x10490a110; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+07:34:00 PM: DEBUG [CursorPool.py:22] Haciendo commit
+07:34:00 PM: DEBUG [Conexion.py:47] Conexion liberada <connection object at 0x10490a110; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+07:34:04 PM: DEBUG [Conexion.py:28] Conexion establecida con el pool extiosamente <psycopg2.pool.SimpleConnectionPool object at 0x103a76980>
+07:34:04 PM: DEBUG [Conexion.py:41] Conexion con el cursor <connection object at 0x102fa2110; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+07:34:04 PM: DEBUG [CursorPool.py:22] Haciendo commit
+07:34:04 PM: DEBUG [Conexion.py:47] Conexion liberada <connection object at 0x102fa2110; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+07:34:15 PM: DEBUG [Conexion.py:28] Conexion establecida con el pool extiosamente <psycopg2.pool.SimpleConnectionPool object at 0x105abea40>
+07:34:15 PM: DEBUG [Conexion.py:41] Conexion con el cursor <connection object at 0x104fea110; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+07:34:15 PM: DEBUG [CursorPool.py:22] Haciendo commit
+07:34:15 PM: DEBUG [Conexion.py:47] Conexion liberada <connection object at 0x104fea110; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+07:35:04 PM: DEBUG [Conexion.py:28] Conexion establecida con el pool extiosamente <psycopg2.pool.SimpleConnectionPool object at 0x103284f10>
+07:35:04 PM: DEBUG [Conexion.py:41] Conexion con el cursor <connection object at 0x10277a110; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+07:35:04 PM: DEBUG [Conexion.py:47] Conexion liberada <connection object at 0x10277a110; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
